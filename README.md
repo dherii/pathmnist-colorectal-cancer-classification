@@ -172,7 +172,11 @@ Em desenvolvimento.
 
 Durante o desenvolvimento do projeto foram utilizadas ferramentas de IA generativa como apoio para pesquisa, revisão de código, esclarecimento de conceitos e organização da documentação.
 
-Todo o código foi revisado e compreendido pelos integrantes da equipe, conforme exigido pelas diretrizes da disciplina.
+Etapas:
+- Auxílio na organização da estrutura do projeto.
+- Esclarecimento de conceitos teóricos sobre Deep Learning.
+- Revisão gramatical de trechos produzidos pela equipe.
+- Apoio na interpretação de resultados experimentais.
 
 ---
 
