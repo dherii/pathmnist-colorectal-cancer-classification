@@ -1,0 +1,43 @@
+# ============================================================
+# Trabalho Final — Inteligência Artificial — UniCatólica
+# Classificação de Tecidos Histopatológicos com PathMNIST
+# Python 3.12 | Testado em Kaggle (GPU T4) e Google Colab
+# ============================================================
+
+# Dataset
+medmnist==3.0.2
+
+# Deep Learning
+torch==2.10.0
+torchvision==0.25.0
+
+# Computação científica
+numpy==2.4.6
+scipy==1.16.3
+
+# Visualização
+matplotlib==3.10.0
+seaborn>=0.13.0
+
+# Métricas e avaliação
+scikit-learn==1.6.1
+
+# Explainable AI
+grad-cam>=1.5.0          # pytorch-grad-cam (Grad-CAM e variantes)
+shap>=0.46.0             # SHAP — bônus Etapa 4
+
+# Processamento de imagens
+Pillow==11.3.0
+scikit-image==0.25.2
+
+# Utilitários
+tqdm==4.67.3
+pandas==2.3.3
+
+# Jupyter
+jupyter>=1.0.0
+ipykernel>=6.0.0
+
+# Experiment tracking (opcional — bônus)
+# tensorboard>=2.17.0
+# wandb>=0.17.0

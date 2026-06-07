@@ -1,0 +1,12 @@
+experimento,etapa,modelo,otimizador,lr,momentum,batch_size,epocas,val_acc,val_loss,val_f1_macro,val_f1_weighted,hardware,seed,observacoes
+1,Etapa 1,MLP NumPy,SGD+Momentum,0.01,0.9,64,20,0.6168,,0.6116,0.6155,CPU,42,Gradient checking validado (erro < 1e-5)
+2,Etapa 2,MLP PyTorch,SGD+Momentum,0.01,0.9,64,20,0.6202,1.0282,0.6116,0.6155,CPU,42,Diferenca de 0.34 p.p. vs NumPy — META CUMPRIDA
+3,Etapa 3,CNN Autoral,AdamW,0.001,,64,10,0.9683,0.0852,,,GPU T4x2,42,Melhor epoca 9 — 39 min de treinamento
+4,Etapa 3,ResNet50 FE,,,64,,,,,,,GPU T4x2,42,A preencher
+5,Etapa 3,ResNet50 FT,,,64,,,,,,,GPU T4x2,42,A preencher
+6,Etapa 3,VGG16 FE,,,64,,,,,,,GPU T4x2,42,A preencher
+7,Etapa 3,VGG16 FT,,,64,,,,,,,GPU T4x2,42,A preencher
+8,Etapa 3,EfficientNet FE,,,64,,,,,,,GPU T4x2,42,A preencher
+9,Etapa 3,EfficientNet FT,,,64,,,,,,,GPU T4x2,42,A preencher
+10,Etapa 3,ViT-B/16,,,64,,,,,,,GPU T4x2,42,A preencher
+11,Etapa 5,Melhor Modelo Final,,,,,,,,,,,GPU T4x2,42,Avaliado no TESTE apenas uma vez
